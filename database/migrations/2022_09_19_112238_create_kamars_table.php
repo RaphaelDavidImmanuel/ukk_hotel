@@ -18,7 +18,7 @@ class CreateKamarsTable extends Migration
             $table->string("no_kamar")->unique();
             $table->string("harga");
             $table->string("kapasitas");
-            $table->enum("tipe",["Superior", "Deluxe"]);
+            $table->enum("tipe",["Superior", "Deluxe", "Suite"]);
             $table->timestamps();
         });
     }
