@@ -55,10 +55,14 @@
                     <h5>The Dojo Hotel</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt
                         excepturi quas vero.</p>
-                    <p><a class="btn btn-warning mt-3" href="#">Learn More</a></p>
+                    <div class="card">
+                        <div class="card-body text-dark">
+                            This is some text within a card body.
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item">
+            {{-- <div class="carousel-item">
                 <img alt="..." class="d-block w-100" src="img/slider2.jpg">
                 <div class="carousel-caption">
                     <h5>Always Dedicated</h5>
@@ -75,7 +79,7 @@
                         excepturi quas vero.</p>
                     <p><a class="btn btn-warning mt-3" href="#">Learn More</a></p>
                 </div>
-            </div>
+            </div> --}}
         </div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators"
             type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span
                 class="visually-hidden">Previous</span></button> <button class="carousel-control-next"
@@ -93,9 +97,11 @@
                         </div>
                         <div class="col-lg-8 col-md-12 col-12 ps-lg-4 mt-md-4">
                             <div class="about-text">
-                                <h2>Superior Room</h2>
-                                <p>Embrace at the comfort and atmosphere of the best Depok Hotel Rooms as you stay with Dojo
-                                    Hotel. Slick, modern, and beautiful, our Hotel rooms is simply an experience designed for a
+                                <h2 class="room-text">Superior Room</h2>
+                                <p>Embrace at the comfort and atmosphere of the best Depok Hotel Rooms as you stay with
+                                    Dojo
+                                    Hotel. Slick, modern, and beautiful, our Hotel rooms is simply an experience
+                                    designed for a
                                     pleasurable and enjoyable time.</p>
                                 <a class="btn btn-room" href="#">See More</a>
                             </div>
@@ -108,9 +114,11 @@
                     <div class="row">
                         <div class="col-lg-8 col-md-12 col-12 ps-lg-4 mt-md-4">
                             <div class="about-text">
-                                <h2>Deluxe Room</h2>
-                                <p>Embrace at the comfort and atmosphere of the best Depok Hotel Rooms as you stay with Dojo
-                                    Hotel. Slick, modern, and beautiful, our Hotel rooms is simply an experience designed for a
+                                <h2 class="room-text">Deluxe Room</h2>
+                                <p>Embrace at the comfort and atmosphere of the best Depok Hotel Rooms as you stay with
+                                    Dojo
+                                    Hotel. Slick, modern, and beautiful, our Hotel rooms is simply an experience
+                                    designed for a
                                     pleasurable and enjoyable time.</p>
                                 <a class="btn btn-room" href="#">More Details</a>
                             </div>
@@ -129,9 +137,11 @@
                         </div>
                         <div class="col-lg-8 col-md-12 col-12 ps-lg-4 mt-md-4">
                             <div class="about-text">
-                                <h2>Suite Room</h2>
-                                <p>Embrace at the comfort and atmosphere of the best Depok Hotel Rooms as you stay with Dojo
-                                    Hotel. Slick, modern, and beautiful, our Hotel rooms is simply an experience designed for a
+                                <h2 class="room-text">Suite Room</h2>
+                                <p>Embrace at the comfort and atmosphere of the best Depok Hotel Rooms as you stay with
+                                    Dojo
+                                    Hotel. Slick, modern, and beautiful, our Hotel rooms is simply an experience
+                                    designed for a
                                     pleasurable and enjoyable time.</p>
                                 <a class="btn btn-room" href="#">More Details</a>
                             </div>
@@ -140,7 +150,7 @@
                 </div>
             </div>
         </div>
-    </section><!-- rooms section Ends --> 
+    </section><!-- rooms section Ends -->
 
     <!-- special strats -->
     <section class="special section-padding" id="special">
@@ -158,9 +168,10 @@
                         <div class="card-body text-dark">
                             <div class="img-area mb-4"><img alt="" class="img-fluid" src="img/special1.jpg"></div>
                             <h5 class="card-title">Weekend Offers</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi
-                                modi temporibus alias iste. Accusantium?</p><button
-                                class="btn btn-room">More Details</button>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                                eligendi
+                                modi temporibus alias iste. Accusantium?</p><button class="btn btn-room">More
+                                Details</button>
                         </div>
                     </div>
                 </div>
@@ -169,9 +180,10 @@
                         <div class="card-body text-dark">
                             <div class="img-area mb-4"><img alt="" class="img-fluid" src="img/special2.jpg"></div>
                             <h5 class="card-title">Flexible Staycation</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi
-                                modi temporibus alias iste. Accusantium?</p><button
-                                class="btn btn-room">More Details</button>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                                eligendi
+                                modi temporibus alias iste. Accusantium?</p><button class="btn btn-room">More
+                                Details</button>
                         </div>
                     </div>
                 </div>
@@ -180,9 +192,10 @@
                         <div class="card-body text-dark">
                             <div class="img-area mb-4"><img alt="" class="img-fluid" src="img/special3.jpg"></div>
                             <h5 class="card-title">Best Flexible Rate</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi
-                                modi temporibus alias iste. Accusantium?</p><button
-                                class="btn btn-room">More Details</button>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                                eligendi
+                                modi temporibus alias iste. Accusantium?</p><button class="btn btn-room">More
+                                Details</button>
                         </div>
                     </div>
                 </div>
@@ -206,7 +219,8 @@
                         <div class="card-body text-dark">
                             <div class="img-area mb-4"><img alt="" class="img-fluid" src="img/pool.jpg"></div>
                             <h5 class="card-title">Swimming Pool</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                                eligendi
                                 modi temporibus alias iste. Accusantium?</p>
                         </div>
                     </div>
@@ -216,7 +230,8 @@
                         <div class="card-body text-dark">
                             <div class="img-area mb-4"><img alt="" class="img-fluid" src="img/restaurant.jpg"></div>
                             <h5 class="card-title">Italian Restaurant</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                                eligendi
                                 modi temporibus alias iste. Accusantium?</p>
                         </div>
                     </div>
@@ -226,7 +241,8 @@
                         <div class="card-body text-dark">
                             <div class="img-area mb-4"><img alt="" class="img-fluid" src="img/meeting.jpg"></div>
                             <h5 class="card-title">Meeting Room</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                                eligendi
                                 modi temporibus alias iste. Accusantium?</p>
                         </div>
                     </div>

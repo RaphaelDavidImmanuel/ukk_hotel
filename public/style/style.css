@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
 
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
 
@@ -174,5 +174,11 @@ body {
 .btn-special {
     box-sizing: border-box;
     border: 5px solid #E7C888;
+    color: #E7C888;
+}
+
+.room-text{
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
     color: #E7C888;
 }
